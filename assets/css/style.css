@@ -1,0 +1,82 @@
+#main-bio
+    {
+    }
+
+#contact-info
+    {
+    margin-right: 1px;
+    }
+
+#bio-image
+    {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    }
+
+body
+    {
+    background-color:#efeee7;
+    color: #333333;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    margin: 0;
+    line-height: 150%;
+    }
+
+header
+/*This padding below made sure that the header had space before/after the text. Putting it in .header was causing space */
+{
+    text-align: center;
+    background-color: #333333;
+    font-size: 20px;
+    color: #efeee7;
+    padding: 5px;
+}
+
+h1
+    {
+    }
+
+h2
+    {   
+    margin-top: 25px;
+    }    
+
+strong
+    {
+    font-size: 120%;
+    }
+
+a
+    {
+    color: crimson
+    }
+
+.margin
+    {
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+.left
+    {
+    float: left;
+    }
+
+.right
+    {
+    float: right;
+    width: 33%;
+    }
+
+.width63
+    {
+    width: 63%
+    }
+
+.clear
+    {
+    clear: both;
+    }
+

@@ -1,0 +1,77 @@
+/* HTML elements */
+
+body{
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(rgb(236, 220, 198) 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    rgb(236, 220, 198);
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    line-height: 150%;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+/* Classes used in all pages */
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.margin20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Classes, primarily used for <nav> */
+        /* https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float */
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+
+.left{
+    float: left;
+}
+
+.navblock{
+    display: block;
+    padding: 8px;  
+}
+
+
+
+
+
+/* IDs for index */
+
+#bio-image{
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-right: 15px;
+    }
+    
+    #about-me{
+    
+    }
+    
