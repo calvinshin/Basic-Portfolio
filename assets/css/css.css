@@ -1,16 +1,29 @@
 /* HTML elements */
 
+header{
+    background-color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+    /* position: fixed;
+    width: 100%;
+    display: none; */
+
+}
+
 body{
     background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
-    linear-gradient(rgb(236, 220, 198) 4px, transparent 0),
+    linear-gradient(rgb(226, 219, 208) 4px, transparent 0),
     linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
     linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-    rgb(236, 220, 198);
+    rgb(226, 219, 208);
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-    line-height: 150%;
+    line-height: 190%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    color: gray;
 }
 
 section{
@@ -19,9 +32,28 @@ section{
     background: white;
     padding: 20px;
     border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    margin-bottom: 30px;
 }
 
+h1{
+    padding: 25px 25px 25px 40px;
+    background: rgb(37, 170, 157);
+    width: 20%;
+    min-width: 235px;
+    margin-left: 13.8%;
+    color: #efeee7;
+}
 
+h2{
+    
+}
+
+a{
+    color: gray;
+}
 
 /* Classes used in all pages */
 
@@ -31,15 +63,29 @@ section{
     clear: both;
 }
 
-.margin20{
-    margin-left: 20px;
-    margin-right: 20px;
+.left{
+    float: left;
+}
+
+.hidden{
+    display: none;
+}
+
+.h2hr{
+    margin-bottom: 24px;
+    border: 1.5px solid rgb(221, 221, 221);
 }
 
 /* Classes, primarily used for <nav> */
         /* https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float */
 
 .navbar{
+    position: relative;
+    top: -90px;
+    /* left: -10%; */
+}
+
+.navlist{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -47,17 +93,31 @@ section{
     float: right;
 }
 
-
-.left{
-    float: left;
-}
-
 .navblock{
     display: block;
     padding: 8px;  
+    background: white;
 }
 
+.navblankleft{
+    margin-left: 380px;
+    margin-bottom: 47px;
+}
 
+.navblankright{
+    /* margin-right: 40px; */
+    padding-right: 25%;
+    background: white;
+}
+
+.navlink{
+    color: gray;
+    text-decoration: none;
+}
+
+.vertbar{
+   color: #efeee7 
+}
 
 
 
@@ -65,10 +125,15 @@ section{
 
 #bio-image{
     border-radius: 20px;
-    height: 300px;
-    width: 400px;
+    min-height: 210px;
+    min-width: 280px;
+    height: 50%;
+    width: 50%;
+    max-height: 297px;
+    max-width: 396px;
     float: left;
     margin-right: 15px;
+    margin-bottom: 0px;
     }
     
     #about-me{
