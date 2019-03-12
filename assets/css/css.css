@@ -221,8 +221,8 @@ footer{
     float: left;
     margin: 15px;
     width: 250px;
-    height: 230px;
-    /* vertical-align: middle; */
+    height: 220px;
+    vertical-align: middle;
     position: relative;
     text-align: center;
 }
@@ -231,7 +231,11 @@ footer{
 .portImage{
     height: auto;
     max-width: 250px;
-    /* vertical-align: middle; */
+    max-height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /* padding: 0px;
     margin: 0px; */
     /* float: left; */
