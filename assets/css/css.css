@@ -2,12 +2,13 @@
 
 header{
     background-color: #fff;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding-top: 5px;
     /* position: fixed;
     width: 100%;
     display: none; */
     margin-bottom: 25px;
+    /* margin-top: 10px; */
 }
 
 body{
@@ -36,6 +37,7 @@ section{
     border-color: lightgrey;
     border-width: 1px;
     margin-bottom: 30px;
+    /* min-height: 80vh; */
 }
 
 h1{
@@ -47,13 +49,14 @@ h1{
     color: #efeee7;
     font-size: xx-large;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 h2{
     color: rgb(37, 170, 157);
     font-size: x-large;
     font-weight: bold;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 a{
@@ -68,12 +71,36 @@ ul{
     display: block;
     list-style-type: disc;
     margin-top: 1em;
-    margin-bottom: 1 em;
+    margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
 }
-/* uh oh */
+
+li{
+    display: list-item;
+}
+
+
+hr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    border: 1.5px solid rgb(221, 221, 221);
+}
+
+
+figure{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 /* Classes used in all pages */
 
@@ -161,6 +188,9 @@ footer{
     bottom: 0;
 }
 
+.vh{
+    min-height: 66vh;
+}
 
 /* IDs for index */
 
@@ -181,3 +211,41 @@ footer{
     
     }
     
+
+/* classes for portfolio */
+
+/* Class for division */
+.portDiv{
+    /* background-color: rgb(37, 170, 157); */
+    border: 2px rgb(37, 170, 157) solid;
+    float: left;
+    margin: 15px;
+    width: 250px;
+    height: 230px;
+    /* vertical-align: middle; */
+    position: relative;
+    text-align: center;
+}
+
+/* Class for image */
+.portImage{
+    height: auto;
+    max-width: 250px;
+    /* vertical-align: middle; */
+    /* padding: 0px;
+    margin: 0px; */
+    /* float: left; */
+    /* text-align: center; */
+}
+
+/* Class for the text overlay */
+.portText{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(37, 170, 157);
+    width: 100%;
+    padding: 2px;
+    color: white;
+}

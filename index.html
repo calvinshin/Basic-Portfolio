@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Calvin Shin</title>
     <!-- External Links -->
-    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/reset.css">
         <!-- Things that break because of reset: ul/id -->
     <link rel="stylesheet" href="assets/css/css.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -20,7 +20,7 @@
 
     <nav class="navbar">
         <ul class="navlist">
-            <figure class="navblankleft left"></figure>
+            <!-- <figure class="navblankleft left"></figure> -->
 
             <li class="left navblock"><a href="./index.html" class="navlink">About</a></li>
 
@@ -38,7 +38,7 @@
 
     <!-- <br> -->
 <!-- This is for the index -->
-    <section id="about-me" class="clearfix">
+    <section id="about-me" class="clearfix hidden">
         <h2>About Me</h2>
         <hr class="h2hr">
         <img id="bio-image" src="assets/images/calvin.jpeg" alt="Picture of Calvin at Pride">
@@ -81,10 +81,18 @@
 <!-- This is for the portfolio -->
 <!--  -->
 <!--  -->
-    <section>
+    <section class="clearfix">
         <h2>Portfolio</h2>
 
-
+        <div class="portDiv">
+            <img class="portImage" src="assets/images/calvin.jpeg" alt="Picture of Calvin at Pride">
+            <div class="portText">Text</div>   
+        </div>
+            
+        <div class="portDiv">
+                <img class="portImage" src="assets/images/square.png" alt="Picture of Calvin at Pride">
+                <p class="portText">Text 2</p>
+            </div>
 
 
 
@@ -95,18 +103,19 @@
 <!-- This is for the portfolio -->
 <!--  -->
 <!--  -->
-<section>
-    <h2>Contact</h2>
+    <section class="hidden">
+        <h2>Contact</h2>
 
 
 
 
 
-</section>
+    </section>
 
 
 
-    <footer>
+    <footer class="clearfix">
+        <figure class="vh"></figure>
         <!-- <figure class="footergreen"></figure> -->
         <p class="copyright">Copyright&copy;</h3>
     </footer>
