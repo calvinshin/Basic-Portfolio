@@ -41,7 +41,7 @@ section{
 }
 
 h1{
-    padding: 25px 25px 25px 40px;
+    padding: 25px 25px 15px 40px;
     background: rgb(37, 170, 157);
     width: 20%;
     min-width: 235px;
@@ -62,7 +62,7 @@ h2{
 h3{
     font-size: large;
     font-weight: bold;
-    margin: 10px 0px;
+    margin: 00px 0px;
 }
 
 a{
@@ -106,6 +106,11 @@ figure{
     margin-bottom: 1em;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+p{
+    margin-top: 1em;
+    margin-bottom: 1em
 }
 
 /* Classes used in all pages */
