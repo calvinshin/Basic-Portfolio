@@ -7,9 +7,9 @@
     <title>About Calvin Shin</title>
     <!-- External Links -->
     <link rel="stylesheet" href="assets/css/reset.css">
-        <!-- Things that break because of reset: ul/id -->
     <link rel="stylesheet" href="assets/css/css.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 <body>
 
@@ -38,7 +38,7 @@
 
     <!-- <br> -->
 <!-- This is for the index -->
-    <section id="about-me" class="clearfix">
+    <section id="about-me" class="clearfix hidden">
         <h2>About Me</h2>
         <hr class="h2hr">
         <img id="bio-image" src="assets/images/calvin.jpeg" alt="Picture of Calvin at Pride">
@@ -84,7 +84,7 @@
 <!-- This is for the portfolio -->
 <!--  -->
 <!--  -->
-    <section id="portfolio" class="clearfix">
+    <section id="portfolio" class="clearfix hidden">
         <h2>Portfolio</h2>
         <hr class="h2hr">
 
@@ -165,15 +165,15 @@
                 <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_forms -->
             Name
             <br>
-            <input type="text" id="fname" name="firstname" placeholder="John Smith">
+            <input class="inputForm" type="text" id="fname" name="firstname" placeholder="John Smith">
             <br>
             Email
             <br>
-            <input type="text" id="email" name="mail" placeholder="email@google.com">
+            <input class="inputForm" type="text" id="email" name="mail" placeholder="email@google.com">
             <br>
             Message
             <br>
-            <input type="text" id="message" name="content">
+            <textarea class="inputForm inputMessage" id="message" name="content"></textarea>
             <br>
 
             <input type="submit" value="Submit">
@@ -187,7 +187,7 @@
 
 
     <footer class="clearfix">
-        <figure class="vh"></figure>
+        <!-- <figure class="vh"></figure> -->
         <!-- <figure class="footergreen"></figure> -->
         <p class="copyright">Copyright&copy;</h3>
     </footer>

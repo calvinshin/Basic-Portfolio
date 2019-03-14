@@ -1,5 +1,9 @@
 /* HTML elements */
 
+html{
+    height: 100%;
+}
+
 header{
     background-color: #fff;
     /* font-size: 20px; */
@@ -25,6 +29,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     color: gray;
+    position: relative;
 }
 
 section{
@@ -44,7 +49,7 @@ h1{
     padding: 25px 25px 15px 40px;
     background: rgb(37, 170, 157);
     width: 20%;
-    min-width: 235px;
+    min-width: 225px;
     margin-left: 13.8%;
     color: #efeee7;
     font-size: xx-large;
@@ -113,6 +118,30 @@ p{
     margin-bottom: 1em
 }
 
+textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+input[type=submit]{
+    padding: 10px;
+    color: white;
+    font-style: bold;
+    background-color: rgb(37, 170, 157);
+    font-size:large;
+    border: 0px;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(23, 146, 134);
+}
+
 /* Classes used in all pages */
 
 .clearfix::after{
@@ -140,7 +169,7 @@ p{
 @media (min-width: 865px) {
     .navbar{
         position: relative;
-        top: -90px;
+        top: -77px;
         /* left: -10%; */
         float: right;
     }
@@ -224,7 +253,7 @@ footer{
 }
 
 .vh{
-    /* min-height: 66vh; */
+    min-height: 66vh;
 }
 
 /* IDs for index */
@@ -239,7 +268,7 @@ footer{
     max-width: 396px;
     float: left;
     margin-right: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
     }
     
     #about-me{
@@ -247,7 +276,7 @@ footer{
     }
     
 
-/* classes for portfolio */
+/****** classes for portfolio ******/
 #portfolio{
 
 }
@@ -279,11 +308,43 @@ footer{
 /* Class for the text overlay */
 .portText{
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(37, 170, 157);
     width: 100%;
     padding: 2px;
     color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ********* For Submit */
+
+/* Need to make the width centered correctly... because it's broken */
+.inputForm{
+    width: 100%;
+    border: rgb(221, 221, 221) 1px solid;
+    /* padding: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* float: center; */
+    /* text-align: center; */
+    margin: 0px;
+    padding: 10px;
+    /* https://www.w3schools.com/css/css3_box-sizing.asp */
+    box-sizing: border-box; 
+}
+
+.inputForm:focus{
+    background-color: rgb(141, 201, 195);
+    color: black;    
+}
+
+
+/* Need to make the message go on the top */
+.inputMessage{
+    height: 10em;
+    /* vertical-align: text-top; */
 }
