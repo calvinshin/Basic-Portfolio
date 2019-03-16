@@ -299,17 +299,27 @@ footer{
 
 #bio-image{
     border-radius: 20px;
-    min-height: 210px;
-    min-width: 280px;
-    height: calc(210px+ 20%);
-    width: calc(210px + 20%);
+    /* min-height: 120px;
+    min-width: 160px; */
+    height: calc(120px+ 20%);
+    width: calc(160px + 20%);
     max-height: 297px;
     max-width: 396px;
     float: left;
     margin-right: 15px;
     margin-bottom: 2px;
     }
-    
+
+@media (max-width: 500px){
+    #bio-image{
+        float: none;
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px
+    }
+}
+
 #about-me{
 
 }
@@ -352,6 +362,7 @@ footer{
     opacity: 0%;
     background-color: black;
 }
+
 
 /* Class for the text overlay */
 .portText{
