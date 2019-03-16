@@ -36,7 +36,8 @@ body{
 h1{
     padding: 25px 25px 15px 40px;
     background: rgb(37, 170, 157);
-    width: 20%;
+    width: calc(115px + 10vw);
+    /* width: 20%; */
     min-width: 225px;
     margin-left: 13.8%;
     color: #efeee7;
@@ -54,10 +55,10 @@ h1{
     h1{
         border-radius: 0px;
         /* margin-top: 0px; */
-        width: 100%;
+        width: auto;
         margin: 0px;
         min-width: 0px;
-        /* padding: 0px; */
+        padding: 20px;
     }
 }
 
@@ -216,7 +217,7 @@ input[type=submit]:hover{
         /* min-width: 235px; */
         padding-left: 13.8%;
         background-color: white;
-        width: 100%;
+        width: auto;
     }
 
     .navblankleft{
@@ -300,8 +301,8 @@ footer{
     border-radius: 20px;
     min-height: 210px;
     min-width: 280px;
-    height: 50%;
-    width: 50%;
+    height: calc(210px+ 20%);
+    width: calc(210px + 20%);
     max-height: 297px;
     max-width: 396px;
     float: left;
@@ -309,9 +310,9 @@ footer{
     margin-bottom: 2px;
     }
     
-    #about-me{
-    
-    }
+#about-me{
+
+}
     
 
 /****** classes for portfolio ******/
