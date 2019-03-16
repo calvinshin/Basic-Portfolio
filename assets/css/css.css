@@ -327,7 +327,8 @@ footer{
         float: none;
         height: 100%;
         width: 100%;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 10px;
         /* padding: auto; */
         display: block;
