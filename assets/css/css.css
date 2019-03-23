@@ -77,6 +77,7 @@ h3{
 
 a{
     color: gray;
+    scroll-behavior: smooth;
 }
 
 strong{
@@ -91,6 +92,7 @@ ul{
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
+    scroll-behavior: smooth;
 }
 
 li{
